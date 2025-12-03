@@ -3,7 +3,7 @@ const mongoose= require("mongoose");
 const app = express ();
 const Article = require("./models/Article");
 
-mongoose.connect("mongodb+srv://rimeh:09091997AHRahr@cluster0.b0okjak.mongodb.net/?appName=Cluster0"
+mongoose.connect("mongodb+srv://userR:user123@cluster0.b0okjak.mongodb.net/?appName=Cluster0"
 
 ).then( () => {
 console.log("connected successfully");
