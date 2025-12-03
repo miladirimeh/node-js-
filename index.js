@@ -15,9 +15,9 @@ app.use(express.json());
 app.get("/hello", (req,res) => {
 res.send("hello");
 });
-app.get("/") , (req,res) => {
+app.get("/" , (req,res) => {
     res.send("hello in node js project");
-}
+} );
 app.get("/numbers", (req,res) => {
     let number = "";
     for (let i=0; i<=100; i++){
