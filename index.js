@@ -16,7 +16,7 @@ app.get("/hello", (req,res) => {
 res.send("hello");
 });
 app.get("/" , (req,res) => {
-    res.send("Hello in node js project:");
+    res.send("Hello in Node js project:");
 } );
 app.get("/numbers", (req,res) => {
     let number = "";
